@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 0 20px;
 }
 h2 {
-	display: inline-block;
+	display: block;
 }
 article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -128,7 +128,7 @@ nav h1 a {
 div.filter-options {
 	height: auto;
 }
-.filter-options h2 {
+.filter-options h3 {
   color: white;
   font-size: 1rem;
   font-weight: normal;
@@ -174,10 +174,9 @@ div.filter-options {
   display: block;
   margin: 0;
   max-width: 100%;
-  min-height: 248px;
   min-width: 100%;
 }
-#restaurants-list li h1 {
+#restaurants-list li h2 {
   color: #f18200;
   font-family: Arial,sans-serif;
   font-size: 14pt;
@@ -269,7 +268,7 @@ div.filter-options {
 	display: flex;
 	flex-direction: column;
 }
-#reviews-container h2 {
+#reviews-container h4 {
   color: #f58500;
   font-size: 24px;
   font-weight: 300;
@@ -382,7 +381,7 @@ div.filter-options {
 	nav h1 {
     padding: 0px;
 	}
-	h2 {
+	h3 {
 		display: inline-block;
 	}
 }
